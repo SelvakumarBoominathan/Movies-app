@@ -14,7 +14,8 @@ const App = () => {
               Without the Hustle
             </h1>
           </header>
-          <Search SearchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+          {/* <Search SearchTerm={searchTerm} setSearchTerm={setSearchTerm} /> */}
+          <Search {...{ searchTerm, setSearchTerm }} />
         </div>
       </div>
     </main>
